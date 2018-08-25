@@ -60,6 +60,7 @@ echo $B."\nFacebook. : Kamal                 ";
 echo $B."\nInstagram : Kamal_Stv18 ";
 echo $R."\n============================================".$G.$X."\n\n";
 isset($argv[1]) OR die($RR."[!] Input No List [!]\n".$X);
+if(is_numeric($arvg[1])) {
 iseet($argv[1]) OR die($RR."[1] Contoh : php Boom 812xxx". $X);
 if(is_numeric($argv[1])) {
 	echo "Kirim Boom Telphone Ke :".$G.$argv[1].$X."\n";

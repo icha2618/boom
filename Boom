@@ -57,7 +57,7 @@ function post_data($url,$data) {
 echo $R."\n============================================";
 echo $B."\nAuthor  : BisQuat                   ";
 echo $B."\nFacebook: Kamal                 ";
-echo $B."\nInstagram : Kamal_Stv18
+echo $B."\nInstagram : Kamal_Stv18 ";
 echo $R."\n============================================".$G.$X."\n\n";
 isset($argv[1]) OR die($RR."[!] Input No List [!]\n".$X);
 if(is_numeric($argv[1])) {
